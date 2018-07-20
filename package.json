@@ -1,0 +1,19 @@
+{
+  "name": "react-test-app-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Markus Andersson",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- src/index.js"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.16.3"
+  }
+}
