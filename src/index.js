@@ -8,7 +8,7 @@ import auth from './routes/auth';
 
 const app = express();
 app.use(bodyParser.json());
-mongoose.connect('mongodb://localhost/react-test', {useMongoClient: true});
+mongoose.connect("mongodb://localhost/react-test-app", {useMongoClient: true});
 
 app.use('/api/auth', auth);
 
